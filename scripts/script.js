@@ -91,7 +91,7 @@ function globalFunct() {
     let hint = wordAndHint[1];
     let answerArray = setupAnswerArray(word);
     let remainingLetters = word.length;
-    let attempts = 6;
+    let attempts = 8;
     let isOnce;
     hintBox.innerHTML = hint;
     attemptsBox.innerHTML = "Փորձեր՝ <b>" + attempts + "</b>";
