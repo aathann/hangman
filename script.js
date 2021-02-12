@@ -88,25 +88,24 @@ function globalFunct() {
     }
     let wordAndHint = pickWord();
     let word = wordAndHint[0];
+    console.log(word);
     let hint = wordAndHint[1];
     let answerArray = setupAnswerArray(word);
     let remainingLetters = word.length;
-    let attempts = 15;
+    let attempts = 6;
+    let isOnce;
     hintBox.innerHTML = hint;
     attemptsBox.innerHTML = "Փորձեր՝ <b>" + attempts + "</b>";
 
     function getGuess() {
+        isOnce = true;
         let thisLetter = this.innerHTML.toLowerCase();
         if (thisLetter === 'ւ') {
             thisLetter = 'ու';
         }
         let apperances = 0;
         attempts--;
-        attemptsBox.innerHTML = "Փորձեր՝ <b>" + attempts + "</b>";
 
-        if (attempts <= 0) {
-            showAnswerAndLoseScreen(word);
-        }
         for (let j = 0; j < word.length; j++) {
             if (thisLetter === word[j] || thisLetter === 'ո' + word[j]) {
                 if (answerArray[j] === '_') {
@@ -114,7 +113,15 @@ function globalFunct() {
                     insertArray(answerArray.join(" "));
                     apperances++;
                 }
+                if (isOnce) {
+                    attempts++;
+                    isOnce = false;
+                }
             }
+        }
+        attemptsBox.innerHTML = "Փորձեր՝ <b>" + attempts + "</b>";
+        if (attempts <= 0) {
+            showAnswerAndLoseScreen(word);
         }
         remainingLetters -= apperances;
 
