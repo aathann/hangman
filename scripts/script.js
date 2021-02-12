@@ -13,6 +13,7 @@ function globalFunct() {
 
     let winSound = new Audio('sounds/win-sound.mp3');
     let loseSound = new Audio('sounds/lose-sound.mp3');
+    let clickSound = new Audio('sounds/click-sound.mp3');
 
     function addLetters() {
 
@@ -97,6 +98,7 @@ function globalFunct() {
     attemptsBox.innerHTML = "Փորձեր՝ <b>" + attempts + "</b>";
 
     function getGuess() {
+        clickSound.play();
         isOnce = true;
         let thisLetter = this.innerHTML.toLowerCase();
         if (thisLetter === 'ւ') {

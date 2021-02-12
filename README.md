@@ -22,11 +22,22 @@
 
 - *Game name changed.*
 
-- *Added game icon.*
+- *Added - game icon.*
 
 - *Lifes has been increased, now there are 8 instead of 6. (little gift from developer:)*
 
-- *Ordered game files*
+- *Ordered game files.*
 
+# Beta v.0.4
+
+**Changes:**
+
+- *Added - sound of pressing a button.*
+
+- *Added - game version indicator.*
+
+- *Added - game page responsiveness.*
+
+- *Added - mobile version.*
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
