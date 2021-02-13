@@ -65,15 +65,6 @@ body {
     top: 0px;
     left: 20px;
 }
-.hintBox {
-    font-size: 20px;
-    color: #888;
-    position: relative;
-    padding: 10px;
-    position: absolute;
-    top: 0px;
-    left: 20px;
-}
 .attempts > b {
     color: #f8dc81
 }
