@@ -40,4 +40,20 @@
 
 - *Added - mobile version.*
 
+# Beta v.0.5
+
+**New content:**
+
+- *Added - new words, some of the old words have been fixed.*
+
+- *Added - new category - Oceans, and the names of five oceans.*
+
+**Fixes:**
+
+- *Fixed game page responsiveness.*
+
+- *Fixed mobile version bugs.*
+
+- *Fixed some insignificant bugs.*
+
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
