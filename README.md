@@ -48,6 +48,8 @@
 
 - *Added - new category - Oceans, and the names of five oceans.*
 
+- *Added - word skip button.*
+
 **Fixes:**
 
 - *Fixed game page responsiveness.*
@@ -55,5 +57,35 @@
 - *Fixed mobile version bugs.*
 
 - *Fixed some insignificant bugs.*
+
+# Beta v.0.6
+
+**Fixes:**
+
+- *Fixed game categories.*
+
+- *Fixed some words.*
+
+- *Fixed some lines of code.*
+
+- *Fixed some bugs.*
+
+# Beta v.0.7
+
+**New Content:**
+
+- *Added - two new sounds of pressing the skip button.*
+
+- *Added - keys mechanic, the keys increase when the word is guessed.*
+
+- *Attention - all keys are lost on page reload.*
+
+**Changes:**
+
+- *Now you need keys to skip a word.*
+
+- *If the word was guessed without losing attempts, then the keys will increase by two at once.*
+
+- *If there are no more keys, then it is impossible to skip a word.*
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
