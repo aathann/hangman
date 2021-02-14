@@ -80,6 +80,8 @@
 
 - *Attention - all keys are lost on page reload.*
 
+- *Added - new animations.*
+
 **Changes:**
 
 - *Now you need keys to skip a word.*
@@ -87,5 +89,6 @@
 - *If the word was guessed without losing attempts, then the keys will increase by two at once.*
 
 - *If there are no more keys, then it is impossible to skip a word.*
+
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
