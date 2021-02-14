@@ -30,7 +30,7 @@
 
 # Beta v.0.4
 
-**Changes:**
+**New Content:**
 
 - *Added - sound of pressing a button.*
 
