@@ -90,5 +90,22 @@
 
 - *If there are no more keys, then it is impossible to skip a word.*
 
+# Beta v.0.8
+
+**Changes:**
+
+- *Changed game responsiveness.*
+
+- *Changed mobile version responsiveness.*
+
+**Bug fixes:**
+
+- *Fixed mobile version bugs.*
+
+- *Fixed mobile version bug, when the letters are out of the game.*
+
+- *Now the letters are more organized, and look better.*
+
+- *Fixed responsiveness some bug.*
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)

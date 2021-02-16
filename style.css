@@ -147,6 +147,9 @@ body {
     .container {
         max-width: 390px;
     }
+    .container .letters-container {
+        text-align: center;
+    }
     .letter {
         font-size: 12px;
         margin: 4px;
@@ -172,7 +175,7 @@ body {
 }
 @media(max-width: 420px) {
     .container {
-        max-width: 372px;
+        max-width: 376px;
     }
     .letter {
         font-size: 9px;
