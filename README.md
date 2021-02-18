@@ -108,10 +108,5 @@
 
 - *Fixed responsiveness some bugs.*
 
-# Beta v.0.9
-
-**New Content:**
-
-- *Added - about game page.*
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)

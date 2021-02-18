@@ -122,7 +122,7 @@ body {
 .container .skipContainer i {
     color: #ff8e71;
 }
-.aboutGameButton {
+/* .aboutGameButton {
     color: #888;
     border: 2px solid #888;
     padding: 5px;
@@ -161,7 +161,7 @@ body {
 }
 .gameInfo ul li {
     color: #ff8e71;
-}
+} */
 
 ::selection {
     background: #f8dc81;
@@ -172,7 +172,7 @@ body {
 
 
 
-@media(max-width: 1060px) {
+/* @media(max-width: 1060px) {
     .gameInfo {
         width: 50%;
     }
@@ -187,7 +187,7 @@ body {
         top: 10px;
         right: 10px;
     }
-}
+}*/
 @media(max-width: 640px) {
     .container {
         max-width: 505px;
@@ -198,13 +198,13 @@ body {
     .container .statusScreen .winLose {
         font-size: 1.5em;
     }
-    .gameInfo {
+    /* .gameInfo {
         width: 70%;
         font-size: 14px;
     }
     .aboutGameButton i {
         font-size: 16px;
-    }
+    } */
 }
 @media(max-width: 520px) {
     .container {
@@ -254,7 +254,7 @@ body {
         font-size: 12px;
         bottom: 65px;
     }
-    .gameInfo {
+    /* .gameInfo {
         width: 80%;
         height: 50%;
     }
@@ -265,7 +265,7 @@ body {
     }
     .aboutGameButton i {
         font-size: 14px;
-    }
+    } */
 }
 @media(max-width: 380px) {
     .container {

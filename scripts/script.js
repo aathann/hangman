@@ -6,9 +6,7 @@ function globalFunct() {
         hintBox = document.querySelector('.hintBox'),
         attemptsBox = document.querySelector('.attempts'),
         skipButton = document.querySelector('.skipButton'),
-        skipKeys = document.querySelector('.skipKeys'),
-        gameInfo = document.querySelector('.gameInfo'),
-        aboutGameButton = document.querySelector('.aboutGameButton');
+        skipKeys = document.querySelector('.skipKeys');
 
     let statusScreen = $('.statusScreen');
     statusScreen.hide();
@@ -20,7 +18,7 @@ function globalFunct() {
     let nokeySound = new Audio('sounds/nokey-sound.mp3');
     let activatedSound = new Audio('sounds/activated-sound.mp3');
 
-    let infoIsActive = true;
+    /* let infoIsActive = true;
     function showInfo() {
         if (infoIsActive) {
             gameInfo.style.display = 'block';
@@ -32,7 +30,7 @@ function globalFunct() {
             infoIsActive = true;
         }
     }
-    aboutGameButton.onclick = showInfo;
+    aboutGameButton.onclick = showInfo; */
 
     function addLetters() {
 
