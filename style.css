@@ -162,12 +162,12 @@ body {
 .gameInfo ul li {
     color: #ff8e71;
 }
-.attention {
+/* .attention {
     color: red;
     position: absolute;
     top: 10px;
     left: 10px;
-}
+} */
 
 ::selection {
     background: #f8dc81;
