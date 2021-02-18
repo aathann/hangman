@@ -109,4 +109,20 @@
 - *Fixed responsiveness some bugs.*
 
 
+# Beta v.0.9
+
+**Fixes:**
+
+- *Game mobile version global fix.*
+
+- *Responsiveness global fix.*
+
+# Beta v.0.9
+
+**New Content:**
+
+- *Added - new category: States.*
+
+- *Added - game info page.*
+
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
