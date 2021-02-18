@@ -106,6 +106,12 @@
 
 - *Now the letters are more organized, and look better.*
 
-- *Fixed responsiveness some bug.*
+- *Fixed responsiveness some bugs.*
+
+# Beta v.0.9
+
+**New Content:**
+
+- *Added - about game page.*
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
