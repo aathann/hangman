@@ -117,11 +117,11 @@
 
 - *Responsiveness global fix.*
 
-# Beta v.0.9
+# Beta v.1.0
 
 **New Content:**
 
-- *Added - new category: States.*
+- *Added - new category: States*
 
 - *Added - game info page.*
 

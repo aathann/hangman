@@ -144,7 +144,7 @@ body {
     font-size: 20px;
 }
 .gameInfo {
-    width: 40%;
+    width: 640px;
     height: 40%;
     background: #eff7e1;
     position: absolute;
@@ -180,12 +180,12 @@ body {
 
 @media(max-width: 1060px) {
     .gameInfo {
-        width: 50%;
+        width: 540px;
     }
 }
 @media(max-width: 840px) {
     .gameInfo {
-        width: 60%;
+        width: 440px;
     }
 }
 @media(max-width: 720px) {
@@ -205,7 +205,7 @@ body {
         font-size: 1.5em;
     }
     .gameInfo {
-        width: 70%;
+        width: 340px;
         font-size: 14px;
     }
     .aboutGameButton i {
@@ -237,6 +237,10 @@ body {
     .gameVersion {
         display: none;
     }
+    .gameInfo {
+        width: 240px;
+        height: 50%;
+    }
 }
 @media(max-width: 420px) {
     .container {
@@ -253,7 +257,7 @@ body {
         bottom: 65px;
     }
     .gameInfo {
-        width: 80%;
+        width: 220px;
         height: 50%;
     }
     .aboutGameButton {
