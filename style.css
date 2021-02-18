@@ -155,7 +155,9 @@ body {
     font-size: 16px;
     font-weight: 600;
     display: none;
+    visibility: hidden;
     overflow-y: auto;
+    z-index: 8;
 }
 .gameInfo ul li {
     color: #ff8e71;
