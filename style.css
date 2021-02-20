@@ -257,6 +257,10 @@ body {
         font-size: 12px;
         bottom: 65px;
     }
+    .container .attempts {
+        font-size: 16px;
+        top: 18px;
+    }
     .gameInfo {
         width: 220px;
         height: 50%;
@@ -269,17 +273,13 @@ body {
     .aboutGameButton i {
         font-size: 14px;
     }
+    .container .hintBox {
+        font-size: 16px;
+        top: 8px;
+    }
 }
 @media(max-width: 380px) {
     .container {
         max-width: 338px;
-    }
-    .container .attempts {
-        font-size: 16px;
-        top: 15px;
-    }
-    .container .hintBox {
-        font-size: 16px;
-        top: 5px;
     }
 }
