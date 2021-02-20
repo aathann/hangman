@@ -223,6 +223,6 @@ function globalFunct() {
 window.onload = function () {
     globalFunct();
 }
-// window.onbeforeunload = function () {
-//     return confirm("Confirm refresh");
-// };
+window.onbeforeunload = function () {
+    return confirm("Confirm refresh");
+};
