@@ -117,12 +117,26 @@
 
 - *Responsiveness global fix.*
 
-# Beta v.1.0
+# Alpha v.1.0
 
 **New Content:**
 
 - *Added - new category: States*
 
 - *Added - game info page.*
+
+# Alpha v.1.1
+
+**Changes:**
+
+- *Gmae code sorted.*
+
+- *Game code commented.*
+
+- *Game code optimized.*
+
+**Added:**
+
+- *Added - canvas element for further work with it.*
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
