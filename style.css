@@ -13,7 +13,7 @@ body {
 }
 .container {
     position: relative;
-    max-width: 640px;
+    max-width: 628px;
     padding: 20px;
 }
 .container .letters-container {

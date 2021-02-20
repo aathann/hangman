@@ -139,4 +139,12 @@
 
 - *Added - canvas element for further work with it.*
 
+# Alpha v.1.2
+
+**Fixes:**
+
+- *Game interface fix.*
+
+- *Game small elements fix.*
+
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
