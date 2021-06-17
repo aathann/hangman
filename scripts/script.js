@@ -11,9 +11,9 @@ let answerArrayBox = document.querySelector('.answerArrayBox'),
 let skipButton = document.querySelector('.skipButton'),
     skipKeys = document.querySelector('.skipKeys');
 
-let keys = 1;
+let keys = 0;
 
-let gameInfo = document.querySelector('.gameInfo'),
+let gameInfo = $('.gameInfo'),
     aboutGameButton = document.querySelector('.aboutGameButton');
 
 // Game Sounds
@@ -33,13 +33,11 @@ function globalFunct() {
     let infoIsActive = true;
     function showInfo() {
         if (infoIsActive) {
-            gameInfo.style.display = 'block';
-            gameInfo.style.visibility = 'visible';
+            gameInfo.stop().slideDown();
             aboutGameButton.innerHTML = '<i class="fa fa-times" aria-hidden="true"></i>';
             infoIsActive = false;
         } else if (!infoIsActive) {
-            gameInfo.style.display = 'none';
-            gameInfo.style.visibility = 'hidden';
+            gameInfo.stop().slideUp();
             aboutGameButton.innerHTML = '<i class="fa fa-question" aria-hidden="true"></i>';
             infoIsActive = true;
         }
@@ -224,7 +222,9 @@ function globalFunct() {
 }
 window.onload = function () {
     globalFunct();
-    preloader.fadeOut();
+    setTimeout(() => {
+        preloader.fadeOut();
+    }, 500)
 }
 window.onbeforeunload = function () {
     return confirm("Everything will be lost!");

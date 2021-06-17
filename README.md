@@ -152,5 +152,7 @@
 **Added:**
 
 - *Added game preloader screen.*
+- *Added new effects.*
+- *Added new animations.*
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
