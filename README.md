@@ -147,4 +147,10 @@
 
 - *Game small elements fix.*
 
+# Alpha v.1.3
+
+**Added:**
+
+- *Added game preloader screen.*
+
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)

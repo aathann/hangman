@@ -2,6 +2,8 @@
 let lettersContainer = document.querySelector('.letters-container'),
     container = document.querySelector('.container');
 
+let preloader = $('.preload-screen');
+
 let answerArrayBox = document.querySelector('.answerArrayBox'),
     hintBox = document.querySelector('.hintBox'),
     attemptsBox = document.querySelector('.attempts');
@@ -222,7 +224,8 @@ function globalFunct() {
 }
 window.onload = function () {
     globalFunct();
+    preloader.fadeOut();
 }
 window.onbeforeunload = function () {
-    return confirm("Confirm refresh");
+    return confirm("Everything will be lost!");
 };

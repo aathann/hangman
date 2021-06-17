@@ -163,12 +163,70 @@ body {
 .gameInfo ul li {
     color: #ff8e71;
 }
-/* .attention {
+/* Preloader */
+.preload-screen {
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #EFF7E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preloader {
+	width: 100px;
+	height: 50px;
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preloader .preloader-line {
+	width: 2px;
+	height: 10px;
+	background: #888;
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.preloader .preloader-line {
+	animation: lin 1s linear infinite;
+}
+@keyframes lin {
+  0%, 40%, 100% { 
+    height: 10px;
+  }  20% { 
+    height: 20px;
+  }
+}
+.preloader .preloader-line:nth-child(1) {
+	animation-delay: 0.1s;
+}
+.preloader .preloader-line:nth-child(2) {
+	animation-delay: 0.2s;
+}
+.preloader .preloader-line:nth-child(3) {
+	animation-delay: 0.3s;
+}
+.preloader .preloader-line:nth-child(4) {
+	animation-delay: 0.4s;
+}
+.preloader .preloader-line:nth-child(5) {
+	animation-delay: 0.5s;
+}
+
+
+.attention {
     color: red;
     position: absolute;
     top: 10px;
     left: 10px;
-} */
+    z-index: 9999;
+    font-weight: 600;
+}
 
 ::selection {
     background: #f8dc81;
