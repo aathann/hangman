@@ -135,10 +135,6 @@
 
 - *Game code optimized.*
 
-**Added:**
-
-- *Added - canvas element for further work with it.*
-
 # Alpha v.1.2
 
 **Fixes:**
@@ -154,5 +150,13 @@
 - *Added game preloader screen.*
 - *Added new effects.*
 - *Added new animations.*
+
+# Alpha v.1.4
+
+**Changes:**
+
+- *Changed game icon.*
+- *Changed game name.*
+- *Some changes to the game interface.*
 
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
