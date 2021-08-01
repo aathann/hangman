@@ -113,6 +113,15 @@ body {
     right: 0;
     z-index: 9;
 }
+.copyRight {
+    color: #888;
+    font-size: 12px;
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    padding: 6px;
+}
 .container .skipContainer {
     position: absolute;
     bottom: 55px;
@@ -294,6 +303,9 @@ body {
     }
     .gameVersion {
         display: none;
+    }
+    .copyRight {
+        font-size: 10px;
     }
     .gameInfo {
         width: 240px;

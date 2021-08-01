@@ -159,4 +159,8 @@
 - *Changed game name.*
 - *Some changes to the game interface.*
 
+# Alpha v.1.41
+
+- *Added game copyright.*
+
 > by [Narek Avanesyan](https://narekavanesyan.blogspot.com/)
