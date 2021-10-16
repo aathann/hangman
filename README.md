@@ -1,8 +1,8 @@
-# Beta v.0.1
+# Alpha v.0.1
 
 *Added game files*
 
-# Beta v.0.2
+# Alpha v.0.2
 
 **Bug fixes:**
 
@@ -12,7 +12,7 @@
 
 - *Fixed double win screen.*
 
-# Beta v.0.3
+# Alpha v.0.3
 
 **Changes:**
 
@@ -28,7 +28,7 @@
 
 - *Ordered game files.*
 
-# Beta v.0.4
+# Alpha v.0.4
 
 **New Content:**
 
@@ -40,7 +40,7 @@
 
 - *Added - mobile version.*
 
-# Beta v.0.5
+# Alpha v.0.5
 
 **New content:**
 
@@ -58,7 +58,7 @@
 
 - *Fixed some insignificant bugs.*
 
-# Beta v.0.6
+# Alpha v.0.6
 
 **Fixes:**
 
@@ -70,7 +70,7 @@
 
 - *Fixed some bugs.*
 
-# Beta v.0.7
+# Alpha v.0.7
 
 **New Content:**
 
@@ -90,7 +90,7 @@
 
 - *If there are no more keys, then it is impossible to skip a word.*
 
-# Beta v.0.8
+# Alpha v.0.8
 
 **Changes:**
 
@@ -109,7 +109,7 @@
 - *Fixed responsiveness some bugs.*
 
 
-# Beta v.0.9
+# Alpha v.0.9
 
 **Fixes:**
 
@@ -117,7 +117,7 @@
 
 - *Responsiveness global fix.*
 
-# Alpha v.1.0
+# Beta v.1.0
 
 **New Content:**
 
@@ -125,7 +125,7 @@
 
 - *Added - game info page.*
 
-# Alpha v.1.1
+# Beta v.1.1
 
 **Changes:**
 
@@ -135,7 +135,7 @@
 
 - *Game code optimized.*
 
-# Alpha v.1.2
+# Beta v.1.2
 
 **Fixes:**
 
@@ -143,7 +143,7 @@
 
 - *Game small elements fix.*
 
-# Alpha v.1.3
+# Beta v.1.3
 
 **Added:**
 
@@ -151,7 +151,7 @@
 - *Added new effects.*
 - *Added new animations.*
 
-# Alpha v.1.4
+# Beta v.1.4
 
 **Changes:**
 
@@ -159,7 +159,7 @@
 - *Changed game name.*
 - *Some changes to the game interface.*
 
-# Alpha v.1.41
+# Beta v.1.41
 
 - *Added game copyright.*
 
